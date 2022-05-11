@@ -38,18 +38,26 @@
 
 <body>
 
-<h2>A basic HTML table</h2>
+<h2>Comparison of SHA-2 functions</h2>
 
 <table style="width:100%">
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Algorithm</th>
+    <th>Output size
+(bits)</th>
+    <th>Internal
+state size
+(bits)</th>
+    <th>Block size
+      (bits)</th>
+    <th>Rounds</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+  <td><i>SHA-224</i><br /><i>SHA-256</i></td>
+<td>224<br />256</td>
+<td>256<br /><span class="nowrap">(8 × 32)</span></td>
+<td>512</td>
+<td>64</td>
   </tr>
   <tr>
     <td>Centro comercial Moctezuma</td>
