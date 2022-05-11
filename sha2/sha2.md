@@ -41,6 +41,7 @@
 <h2>Comparison of SHA-2 functions</h2>
 
 <table style="width:100%">
+  <tr>
   <th colspan="2" rowspan="2">Algorithm and variant
 </th>
 <th rowspan="2">Output size<br />(bits)
@@ -51,13 +52,15 @@
 </th>
 <th rowspan="2">Rounds
 </th>
-  
+  </tr>
+  <tr>
 <td rowspan="4"><b><span class="nowrap"><a class="mw-selflink selflink">SHA-2</a></span></b></td>
 <td><i>SHA-224</i><br /><i>SHA-256</i></td>
 <td>224<br />256</td>
 <td>256<br /><span class="nowrap">(8 × 32)</span></td>
 <td>512</td>
 <td>64</td>
+  </tr>
   <tr>
     <td>Centro comercial Moctezuma</td>
     <td>Francisco Chang</td>
