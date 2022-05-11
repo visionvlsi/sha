@@ -52,11 +52,17 @@
   <tr>
     <td>SHA-224<br />SHA-256</td>
     <td>224<br />256</td>
-    <td>256<br /></td>
+    <td>256(8 × 32)<br /></td>
     <td>512</td>
     <td>64</td>
   </tr>
- 
+ <tr>
+     <td>SHA-384</td>
+    <td>384</td>
+    <td>512<br /></td>
+    <td>1024</td>
+    <td>80</td>
+  </tr>
 </table>
 </body>
 </html>
