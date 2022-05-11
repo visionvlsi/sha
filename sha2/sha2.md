@@ -34,7 +34,7 @@
 <li>t values 224 and 256 are especially mentioned as approved.</li>
 </ul>
 
-<!DOCTYPE html>
+
 <html>
 <body>
   
