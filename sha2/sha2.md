@@ -60,6 +60,7 @@
 <td>512</td>
 <td>64</td>
   </tr>
+  </table>
   </body>
 </html>
 
