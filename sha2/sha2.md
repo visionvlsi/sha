@@ -34,6 +34,9 @@
 <li>t values 224 and 256 are especially mentioned as approved.</li>
 </ul>
 
+<!DOCTYPE html>
+<html>
+<body>
   
 <h2>Comparison of SHA-2 functions</h2>
 
@@ -54,5 +57,6 @@
 <td>64</td>
   </tr>
 </tbody></table>
-
+</body>
+</html>
 
