@@ -53,10 +53,10 @@
 <th rowspan="2">Rounds
 </th>
   </tr>
- <tr style="text-align:center;vertical-align:top;">
+ <tr>
 <td><i>SHA-224</i><br /><i>SHA-256</i></td>
 <td>224<br />256</td>
-<td>256<br /><span class="nowrap">(8 × 32)</span></td>
+<td>256<br /></td>
 <td>512</td>
 <td>64</td>
   </tr>
