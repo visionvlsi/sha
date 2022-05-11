@@ -54,7 +54,6 @@
 </th>
   </tr>
  <tr style="text-align:center;vertical-align:top;">
-<td rowspan="4"><b><span class="nowrap"><a class="mw-selflink selflink">SHA-2</a></span></b></td>
 <td><i>SHA-224</i><br /><i>SHA-256</i></td>
 <td>224<br />256</td>
 <td>256<br /><span class="nowrap">(8 × 32)</span></td>
