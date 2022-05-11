@@ -32,7 +32,7 @@
 <li>the output is constructed by truncating the concatenation of h0 through h7 at t bits,</li>
 <li>t equal to 384 is not allowed, instead SHA-384 should be used as specified, and</li>
 <li>t values 224 and 256 are especially mentioned as approved.</li>
-  
+</ul>
 <!DOCTYPE html>
 <html>
 <body>
