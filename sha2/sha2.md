@@ -50,7 +50,7 @@
     <th rowspan="2">Rounds</th>
   </tr>
   <tr>
-    <td><i>SHA-224</i><br /><i>SHA-256</i></td>
+    <td>SHA-224<br />SHA-256</td>
     <td>224<br />256</td>
     <td>256<br /></td>
     <td>512</td>
