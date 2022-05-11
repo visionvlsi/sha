@@ -59,7 +59,23 @@
  <tr>
      <td>SHA-384</td>
     <td>384</td>
-    <td>512<br /></td>
+    <td>512(8 × 64)<br /></td>
+    <td>1024</td>
+    <td>80</td>
+  </tr>
+  
+   <tr>
+     <td>SHA-512</td>
+    <td>512</td>
+    <td>512(8 × 64)<br /></td>
+    <td>1024</td>
+    <td>80</td>
+  </tr>
+   <tr>
+     <td>SHA-512/224<br />
+SHA-512/256</td>
+    <td>512</td>
+    <td>512(8 × 64)<br /></td>
     <td>1024</td>
     <td>80</td>
   </tr>
