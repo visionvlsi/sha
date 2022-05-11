@@ -41,7 +41,7 @@
 <h2>Comparison of SHA-2 functions</h2>
 
 <table style="width:100%">
-  <tbody><tr style="vertical-align:bottom;">
+  <tbody>
   <tr>
 <th colspan="2" rowspan="2">Algorithm and variant</th>
 <th rowspan="2">Output size<br />(bits)</th>
