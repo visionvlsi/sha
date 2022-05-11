@@ -33,7 +33,10 @@
 <li>t equal to 384 is not allowed, instead SHA-384 should be used as specified, and</li>
 <li>t values 224 and 256 are especially mentioned as approved.</li>
   
-
+<!DOCTYPE html>
+<html>
+<body>
+  
 <h2>Comparison of SHA-2 functions</h2>
 
 <table style="width:100%">
@@ -52,3 +55,6 @@
 <td>64</td>
   </tr>
 </table>
+
+</body>
+</html>
