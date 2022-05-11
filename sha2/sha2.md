@@ -51,8 +51,7 @@
 <th rowspan="2">Block size<br />(bits)
 </th>
 <th rowspan="2">Rounds
-</th>
-  </tr>
+</th></tr>
  <tr>
 <td><i>SHA-224</i><br /><i>SHA-256</i></td>
 <td>224<br />256</td>
@@ -60,16 +59,7 @@
 <td>512</td>
 <td>64</td>
   </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-</table>
-
-<p>To undestand the example better, we have added borders to the table.</p>
-
-</body>
+  </body>
 </html>
 
 
