@@ -43,7 +43,7 @@
 <table style="width:100%">
   <tbody>
   <tr>
-<th colspan="2" rowspan="2">Algorithm and variant</th>
+<th rowspan="2">Algorithm and variant</th>
 <th rowspan="2">Output size<br />(bits)</th>
 <th rowspan="2">Internal <br />state size <br />(bits)</th>
 <th rowspan="2">Block size<br />(bits)</th>
