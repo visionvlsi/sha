@@ -11,3 +11,17 @@
 <ul>
 <li>the initial hash values h0 through h7 are different, and the output is constructed by omitting h7.</li>
 </ul>
+
+
+<u>SHA-512 is identical in structure to SHA-256, but:<u>
+<ul>
+  <li>the message is broken into 1024-bit chunks</li>
+<li>the initial hash values and round constants are extended to 64 bits</li>
+<li>there are 80 rounds instead of 64</li>
+<li>the message schedule array w has 80 64-bit words instead of 64 32-bit words</li>
+<li>to extend the message schedule array w, the loop is from 16 to 79 instead of from 16 to 63</li>
+<li>the round constants are based on the first 80 primes 2..409</li>
+<li>the word size used for calculations is 64 bits long</li>
+<li>the appended length of the message (before pre-processing), in bits, is a 128-bit big-endian integer, and</li>
+<li>the shift and rotate amounts used are different.</li>
+  </ul>
