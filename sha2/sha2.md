@@ -13,7 +13,7 @@
 </ul>
 
 
-<u>SHA-512 is identical in structure to SHA-256, but:<u>
+<u>SHA-512 is identical in structure to SHA-256, but:</u>
 <ul>
   <li>the message is broken into 1024-bit chunks</li>
 <li>the initial hash values and round constants are extended to 64 bits</li>
@@ -25,3 +25,10 @@
 <li>the appended length of the message (before pre-processing), in bits, is a 128-bit big-endian integer, and</li>
 <li>the shift and rotate amounts used are different.</li>
   </ul>
+  
+  <u>SHA-512/t is identical to SHA-512 except that:</u>
+<ul>
+<li>the initial hash values h0 through h7 are given by the SHA-512/t IV generation function,</li>
+<li>the output is constructed by truncating the concatenation of h0 through h7 at t bits,</li>
+<li>t equal to 384 is not allowed, instead SHA-384 should be used as specified, and</li>
+<li>t values 224 and 256 are especially mentioned as approved.</li>
