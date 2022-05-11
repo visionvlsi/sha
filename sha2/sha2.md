@@ -49,7 +49,7 @@
 <th rowspan="2">Rounds</th>
 </tr>
 <tr>
-<td rowspan="4"><b><span class="nowrap"><a class="mw-selflink selflink">SHA-2</a></span></b></td>
+<td rowspan="4">SHA-2</td>
 <td><i>SHA-224</i><br /><i>SHA-256</i></td>
 <td>224<br />256</td>
 <td>256<br /></td>
