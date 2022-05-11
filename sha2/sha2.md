@@ -5,3 +5,8 @@
 <li>SHA-256 and SHA-512 are novel hash functions computed with eight 32-bit and 64-bit words, respectively. They use different shift amounts and additive constants, but their structures are otherwise virtually identical, differing only in the number of rounds.</li>
 <li>SHA-224 and SHA-384 are truncated versions of SHA-256 and SHA-512 respectively, computed with different initial values.</li>
 <li>SHA-512/224 and SHA-512/256 are also truncated versions of SHA-512, but the initial values are generated using the method described in Federal Information Processing Standards (FIPS) PUB 180-4.</li></ul>
+<u> </u>
+SHA-224 is identical to SHA-256, except that:
+
+the initial hash values h0 through h7 are different, and
+the output is constructed by omitting h7.
