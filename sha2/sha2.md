@@ -7,7 +7,7 @@
 <li>SHA-512/224 and SHA-512/256 are also truncated versions of SHA-512, but the initial values are generated using the method described in Federal Information Processing Standards (FIPS) PUB 180-4.</li></ul>
 <hr size="8" width="100%" color="black">  
 <ul>
-  SHA-224 is identical to SHA-256, except that:
+  <u>SHA-224 is identical to SHA-256, except that:</u>
 
 <li>the initial hash values h0 through h7 are different, and the output is constructed by omitting h7.</li>
 </ul>
