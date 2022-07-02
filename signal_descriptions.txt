@@ -1,0 +1,40 @@
+        input           clk_i;  // global clock input
+        input           rst_i;  // global reset input , active high
+        
+        input   [31:0]  text_i; // text input 32bit
+        output  [31:0]  text_o; // text output 32bit
+        
+        input   [3:0]   cmd_i;  // command input
+        input           cmd_w_i;// command input write enable
+        output  [4:0]   cmd_o;  // command output(status)
+
+        /*
+                cmd  - 5-bit vector
+                
+                cmd[4]    cmd[3]   cmd[2]    cmd[1]    cmd[0]
+                Busy         S      Round     W       R
+
+                bit4     bit3    bit2       bit1    bit0
+                Busy      S      Round       W       R
+                
+                Busy:
+                0       idle
+                1       busy
+                
+                S:
+                0       sha-384
+                1       sha-512
+                
+                Round:
+                0       first round
+                1       internal round
+                
+                W:
+                0       No-op
+                1       write data
+                
+                R:
+                0       No-op
+                1       read data
+                        
+        */
